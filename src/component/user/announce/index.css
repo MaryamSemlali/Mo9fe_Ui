@@ -1,0 +1,50 @@
+.space{
+    position: inherit;
+    top: 80px;
+    height: 10vh;
+}
+
+@media all and (min-width: 480px) {
+    .createForm {
+        padding: 60px 0;
+    }
+
+    .mean createForm {
+        margin: 0 auto;
+        max-width: 320px;
+    }
+}
+.mean{
+    padding-left: 30%;
+    padding-right: 40%;
+    position: inherit;
+    height: 100vh;
+    background-color: aliceblue;
+}
+.btnForPost {
+    margin-bottom: 20px;
+}
+
+.myPostsList {
+    height: 8vh;
+    margin-left: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.listContainer {
+    margin-top: 10vh;
+
+}
+.theList {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    background-image: linear-gradient(to right,  #F8F8F8 , white);
+}
+.listDetails {
+    padding-left: 100px;
+}
+.leftContainer{
+    margin-left: 100px;
+}

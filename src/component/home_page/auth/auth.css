@@ -1,0 +1,21 @@
+.space{
+    position: inherit;
+    top: 100px;
+    height: 15vh;
+}
+
+@media all and (min-width: 480px) {
+    .Login {
+        padding: 60px 0;
+    }
+
+    .Login form {
+        margin: 0 auto;
+        max-width: 320px;
+    }
+}
+.Login{
+    position: inherit;
+    height: 100vh;
+    background-color: aliceblue;
+}

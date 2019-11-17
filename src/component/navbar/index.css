@@ -1,0 +1,29 @@
+#TheNav {
+    position: fixed;
+    width: 100%;
+    background-color: #F5F5F5;
+    z-index: 9999 !important;
+    margin-bottom: 60px;
+    display: block;
+}
+
+@media all and (max-width: 698px) {
+
+    .items {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.navBtn {
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    text-decoration:none;
+    background-color: transparent;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+.btn.focus, .btn:focus {
+    box-shadow: none!important;
+}
